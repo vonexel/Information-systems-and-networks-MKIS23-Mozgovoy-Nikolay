@@ -1,0 +1,27 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+div{
+	height:100px;
+	width:200px;
+	background-color: red;
+	margin:10px 10px 10px 10px;
+}
+
+#d1 {
+    background-color: antiquewhite;
+}
+
+#d2 {
+    background-color: crimson;
+}
+
+.second {
+    background-color: midnightblue;
+}
+
+#d6 {
+    background-color: darkcyan;
+}

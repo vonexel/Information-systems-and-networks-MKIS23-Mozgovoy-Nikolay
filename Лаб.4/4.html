@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Лаб.4</title>
+        <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet">
+    </head>
+	<body>
+		<div id="d1" class="first">
+		</div> 
+		<div id="d2" class="first">
+		</div>
+		<div id="d3" class="second">
+		</div>
+		<div id="d4" class="first">
+		</div>
+		<div id="d5" class="second">
+		</div>
+		<div id="d6" class="second">
+		</div>
+			<br>
+		<p><font face="matura mt script capitals" size=5 color="#FA8072"><h1 align="middle">Селекторы CSS</p></font></h1>
+		<img src="s1.png" width="741" height="433" alt="Выполнение лабораторной в браузере" align="left">
+		<p><b>Изначально изменили цвет прямоугольника №2(#d2),соответственно,он не поменял свой цвет, хотя и относится к классу first</b></p>
+		<p><b>Селектор</b> определяет, к какому элементу применять то или иное CSS-правило.
+		<pre>
+	*{ 
+	font-family: Arial, Verdana, sans-serif; /* Рубленый шрифт для текста */ 
+	font-size: 96%; /* Размер текста */ 
+	} 
+   		</pre>
+		</p>
+		<p><b>Псевдокласс</b> — это селектор, который выбирает элементы, находящиеся в специфическом состоянии, например, они являются
+первым элементом своего типа, или на них наведён указатель мыши. Они обычно действуют так, как если бы вы применили
+класс к какой-то части вашего документа, что часто помогает сократить избыточные классы в разметке и даёт более
+гибкий, удобный в поддержке код
+		<pre>
+INPUT:focus { 
+    color: red; /* Красный цвет текста */
+   }
+		</pre>
+		</p>
+		<p><b>Псевдоэлементы</b> ведут себя сходным образом, однако они действуют так, как если бы вы добавили в разметку целый новый
+HTML-элемент, а не применили класс к существующим элементам. Псевдоэлементы начинаются с двойного двоеточия ::
+		<pre>
+.new::after {
+    content: " - Новьё!"; /* Добавляем после текста абзаца */
+    color: red; /* Красный цвет текста */
+    font-style: italic; /* Курсивное начертание */
+   }
+		</pre>
+		</p>
+			</br>
+		<table border="1" cellpadding="3" cellspacing="3">
+		<caption valign="middle"  align="center">CSS селекторы</caption>
+		<tr>
+			<th colspan="3" bgcolor="#ffcc33"  valign="middle"  align="center" >Селектор</th>
+			<th colspan="3" bgcolor="#ffcc33"  valign="middle"  align="center" >Пример</th>
+			<th colspan="3" bgcolor="#ffcc33"  valign="middle"  align="center" >Описание</th>
+			<tr>
+				<td colspan="3" align="center">#id</td>
+				<td colspan="3" align="center">#d1</td>
+				<td colspan="3" align="center">Выбирает элемент с идентификатором d1 (id="d1")</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center">.class</td>
+				<td colspan="3" align="center">.second</td>
+				<td colspan="3" align="center">Выбирает все элементы с классом second (class="second")</td>	
+			</tr>
+			<tr>
+				<td colspan="3" align="center">*</td>
+				<td colspan="3" align="center">*</td>
+				<td colspan="3" align="center">Выбор всех элементов</td>	
+			</tr>
+			<tr>
+				<td colspan="3" align="center">[Атрибут]</td>
+				<td colspan="3" align="center">[title]</td>
+				<td colspan="3" align="center">Выбирает все элементы с атрибутом title</td>	
+			</tr>
+			<tr>
+				<td colspan="3" align="center">[Атрибут*="значение"]</td>
+				<td colspan="3" align="center">[title*="один"]</td>
+				<td colspan="3" align="center">Выбирает все элементы с атрибутом title, в значении которого (в любом месте) встречается подстрока (в виде отдельного слова или его части) "один" (title="один и два")</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center">[Атрибут$="значение"]</td>
+				<td colspan="3" align="center">[src$=".png"]</td>
+				<td colspan="3" align="center">Выбирает все элементы с атрибутом src, значение которого оканчивается на ".png" (src="some_img.png")</td>	
+			</tr>
+			<tr>
+				<td colspan="3" align="center">Элемент</td>
+				<td colspan="3" align="center">span</td>
+				<td colspan="3" align="center">Выбор всех элементов <q>span</q></td>
+			</tr>
+		</table>
+    </body>
+</html>
