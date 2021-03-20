@@ -1,7 +1,9 @@
 body{
-  background-color:#243CED;
-  color:pink;
+  background-image:url(doggy.jpg);
+  background-color:	#C0C0C0;
+  color:aqua;
 }
+
 h1{
   color:red;
 }
