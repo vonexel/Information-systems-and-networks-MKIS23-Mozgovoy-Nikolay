@@ -10,6 +10,7 @@ p#sn{
 }
 p#so{
   font-style:oblique;
+  font-variant:small-caps;
 }
 p#si{
   font-style:italic;
