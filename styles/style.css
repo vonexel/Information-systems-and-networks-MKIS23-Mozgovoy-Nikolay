@@ -6,4 +6,14 @@ body{
 p{
   text-indent:1.2em;
 }
+p#sc{
+  text-transform:capitalize;
+}
+p#su{
+  text-transform:uppercase;
+}
+p#sl{
+  text-transform:lowercase;
+}
+
 
