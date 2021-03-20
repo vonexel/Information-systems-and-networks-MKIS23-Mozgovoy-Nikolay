@@ -1,6 +1,6 @@
 body{
 	background-image: url(doggy.jpg);
-	background-repeat: repeat-y;
+	background-repeat: repeat-x;
 	background-color:#C0C0C0;
 	color:aqua;
 }
