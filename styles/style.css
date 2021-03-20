@@ -1,11 +1,5 @@
 body{
-	background-image: url(doggy.jpg);
-	background-repeat: no-repeat;
-	background-attachment:fixed;
-	background-color:#C0C0C0;
-	color:aqua;
+  background:url(doggy.jpg) no-repeat #33CCFF center top;
+  color:yellow;
 }
 
-h1{
-	color:red;
-}
