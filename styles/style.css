@@ -1,17 +1,29 @@
 body{
-  background:url(doggy.jpg) no-repeat #33CCFF center top;
-  color:yellow;
+  background:#0033CC;
+  color:#FFFFFF;
+  font:12px Verdana, sans-serif;
 }
-
-p{
-  line-height:200%
+h1{
+  font-size:1.6em;
+  color:#FFCC00;
+  letter-spacing:5px;
+  text-align:center;
+}
+h2{
+  font-size:1.3em;
+  color:#FFCC00;
+  text-decoration:underline;
+  text-align:center;
+}
+p:first-letter{
+  color:#FFCC00;
 }
 p#su{
+  text-indent:1.5em;
   word-spacing:10px;
+  font-style:italic;
 }
-p#sl{
-  letter-spacing:5px;
-}
+
 
 
 
