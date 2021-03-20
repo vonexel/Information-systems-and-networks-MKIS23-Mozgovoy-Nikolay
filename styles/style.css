@@ -2,4 +2,7 @@ body{
   background:url(doggy.jpg) no-repeat #33CCFF center top;
   color:yellow;
 }
+p#sn, p#so, p#si{
+  font-family: Verdana, sans-serif;
+}
 
