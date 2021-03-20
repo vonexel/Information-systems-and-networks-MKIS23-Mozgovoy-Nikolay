@@ -3,25 +3,12 @@ body{
   color:#FFFFFF;
   font:12px Verdana, sans-serif;
 }
-h1{
-  font-size:1.6em;
-  color:#FFCC00;
-  letter-spacing:5px;
-  text-align:center;
-}
-h2{
-  font-size:1.3em;
-  color:#FFCC00;
-  text-decoration:underline;
-  text-align:center;
-}
-p:first-letter{
-  color:#FFCC00;
-}
-p#su{
-  text-indent:1.5em;
-  word-spacing:10px;
-  font-style:italic;
+p{
+  border:1px solid red;
+  padding:10px;
+  margin:50px;
+  width:100px;
+  height:50px;
 }
 
 
