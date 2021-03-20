@@ -4,9 +4,11 @@ body{
 }
 p#sn, p#so, p#si{
   font-family: Verdana, sans-serif;
+  font-size:12px;
 }
 p#sn{
   font-style:normal;
+  font-size:1.2em;
 }
 p#so{
   font-style:oblique;
@@ -15,5 +17,6 @@ p#so{
 p#si{
   font-style:italic;
   font-weight:bold;
+  font-size:0.8em;
 }
 
